@@ -1,0 +1,47 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{background-color: hsl(217, 54%, 11%);}
+.container-cajita{
+    margin: 200px auto;
+    background-color:  hsl(216, 50%, 16%);
+    border-radius: 20px;
+    width:300px ;
+    padding: 20px;
+}.NFT{
+    width: 260px;
+    border-radius: 20px;
+}h2{
+    font-size: 18px; 
+    font-family: 'Roboto Mono', monospace; 
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+}.icone-NFT{
+    height: 40px;
+    color:hsl(215, 51%, 70%);
+}
+.footer{
+    
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}.avatar{
+    width: 30px;
+}.p{
+    color:hsl(215, 32%, 27%);
+    margin-top: 10px;
+}.parteAbajo-noTanAbajo{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 15px 0;
+    border-bottom: solid 1px hsl(215, 32%, 27%);
+}.blanquito{
+    color:hsl(215, 32%, 27%);
+}
+span{
+    color:hsl(0, 0%, 100%);
+}.time{
+    color:hsl(215, 32%, 27%);
+}.attribution{
+    margin-right: 0;
+    color: #fff;
+    width: 330px;
+}
