@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="./Calculadora.css">
+</head>
+<body>
+  <div class="container">
+    <div class="container-box">
+      <div class="thematics">calc<p class="THEME">THEME</p><div class="panel-change-themes">
+        <button class="Switch" id="Switch">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+        </button>
+      </div>
+      </div>
+      <div class="container-numbers-panel"><input type="text" id="panel"></div>
+      <div class="container-numbers-buttons">
+        <table class="tablita-insana">
+          <tr>
+            <td><button oneclick="ButtomNumber(7)" class="ButtonsDefault">7</button></td>
+            <td><button oneclick="ButtomNumber(8)" class="ButtonsDefault">8</button></td>
+            <td><button oneclick="ButtomNumber(9)" class="ButtonsDefault">9</button></td>
+            <td><button oneclick="Operation(DEL)" class="ButtonsDefault blue">DEL</button></td>
+          </tr>
+          <tr>
+            <td><button oneclick="ButtomNumber(4)" class="ButtonsDefault">4</button></td>
+            <td><button oneclick="ButtomNumber(5)" class="ButtonsDefault">5</button></td>
+            <td><button oneclick="ButtomNumber(6)" class="ButtonsDefault">6</button></td>
+            <td><button oneclick="Operation('+')" class="ButtonsDefault">+</button></td>
+          </tr>
+          <tr>
+            <td><button oneclick="ButtomNumber(1)" class="ButtonsDefault">1</button></td>
+            <td><button oneclick="ButtomNumber(2)" class="ButtonsDefault">2</button></td>
+            <td><button oneclick="ButtomNumber(3)" class="ButtonsDefault">3</button></td>
+            <td><button oneclick="Operation('-')" class="ButtonsDefault">-</button></td>
+          </tr>
+          <tr>
+            <td><button oneclick="ButtomNumber('.')" class="ButtonsDefault">.</button></td>
+            <td><button oneclick="ButtomNumber(0)" class="ButtonsDefault">0</button></td>
+            <td><button oneclick="Operation('/')" class="ButtonsDefault">/</button></td>
+            <td><button oneclick="Operation('X')" class="ButtonsDefault">X</button></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button oneclick="Operation(clear)" class="ButtonsDefault Operators Reset">RESET</button></td>
+            <td colspan="2"><button oneclick="Operation('=')" class="ButtonsDefault Operators Iguality">=</button></td>       
+        </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script >
+     Agrregar  = document.getElementById("Switch").classList.toggle("medio")
+    
+
+  </script>
+</body>
+</html>

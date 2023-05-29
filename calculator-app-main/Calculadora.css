@@ -1,0 +1,97 @@
+*{padding:0;margin:0;box-sizing: border-box;font-size: 18px;}
+body{background-color: hsl(222, 26%, 31%);}
+.container{display:flex;}
+.container-box{
+margin: 250px auto;
+height: 205px;
+width: 250px;
+display: block;
+}
+.thematics{
+    display: flex;
+}
+.THEME{
+    margin-left: 90px;
+    margin-bottom: 10px;
+}.Switch{
+    background-color: #747a742e;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+}.Switch > span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color:#fff;
+}.Switch::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #ffffffbe;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0 0 2px 2px rgba(32, 32, 32, 0.2);
+}.Switch > .medio{
+    background-color: rgb(36, 36, 36);
+    color: #1111;
+    left: 0;
+}.medio::after{
+    right: 0;
+    left: 30px;
+}.final{
+    background-color: rgb(36, 36, 36);
+    color: #1111;
+}.final::after{
+    right: inset;
+    left: 0;
+}
+.container-numbers-panel{
+    width: 500px;
+    background-color: hsl(223, 31%, 20%);
+    padding: 5px;
+}
+#panel{
+    width: 490px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: hsl(268, 75%, 9%);
+    border: none;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.container-numbers-buttons{
+    background-color: hsl(224, 36%, 15%);
+    width: 500px;
+    height: auto;
+}.ButtonsDefault{
+    padding: 5px;
+    width: 100px;
+    height: 55px;
+    margin: 10px ;
+    border-radius: 10px;
+    border: none;
+}.Operators{
+    width: 100%;
+    margin: 10px;
+}.blue{
+    background-color: hsl(225, 56%, 67%);
+    box-shadow: 0 5px 1px 0 hsl(223, 30%, 52%);
+    color: #fff;
+}.Iguality{
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0 5px 1px 0  hsl(6, 70%, 34%);
+}
+
+/*
+background-color: hsl(0, 0%, 93%); para los botones al activarse
+*/
