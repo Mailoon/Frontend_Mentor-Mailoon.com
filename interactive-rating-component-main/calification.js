@@ -5,9 +5,5 @@ const element4 = document.getElementById('rating4');
 const element5 = document.getElementById('rating5');
 
 element1.addEventlistener('click',function(){
-element1.classList.add('rating-back')
-element2.classList.add('rating-back')
-element3.classList.add('rating-back')
-element4.classList.add('rating-back')
-element5.classList.add('rating-back')
+    element1.classList.add('rating-back')
 })
