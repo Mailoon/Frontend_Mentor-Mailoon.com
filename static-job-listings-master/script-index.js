@@ -134,7 +134,7 @@ const clearAllFilters = () => {
 
 const loadJobs = async () => {
     try {
-        const response = await fetch("./data.json");
+        const response = await fetch("./Data.json");
         if (!response.ok) throw new Error("Error in charge the JSON");
         allJobs = await response.json();
         renderJobs(allJobs.jobs);
